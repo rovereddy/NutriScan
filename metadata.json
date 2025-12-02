@@ -1,0 +1,7 @@
+{
+  "name": "NutriScan",
+  "description": "Instantly analyze food packaging ingredients to determine healthiness using AI-powered OCR and nutritional analysis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
