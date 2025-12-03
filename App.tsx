@@ -21,8 +21,8 @@ const App: React.FC = () => {
   };
 
   const t = {
-    scanProduct: language === 'zh' ? '掃描產品' : 'Scan Product',
-    checkIngredients: language === 'zh' ? '即時分析成份' : 'Check ingredients instantly',
+    scanProduct: language === 'zh' ? '掃描成份列表' : 'Scan Ingredients List',
+    checkIngredients: language === 'zh' ? '拍攝包裝上的成份文字' : 'Take a photo of the package text',
     recentScans: language === 'zh' ? '最近掃描' : 'Recent Scans',
     savedProducts: language === 'zh' ? '已儲存產品' : 'Saved Products',
     emptyFavorites: language === 'zh' ? '您喜歡的產品將顯示在此處' : 'Products you like will appear here',
