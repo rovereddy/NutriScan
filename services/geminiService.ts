@@ -1,9 +1,9 @@
-import { GoogleGenAI, Type, Schema } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult, HealthLevel, Language } from "../types";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
-const analysisSchema: Schema = {
+const analysisSchema = {
   type: Type.OBJECT,
   properties: {
     productName: {
